@@ -1,0 +1,403 @@
+{
+    "title": "ICT",
+    "description": "Test your ICT knowledge with this flashcard quiz.",
+    "cards": [
+        {
+            "difficulty": 1,
+            "question": "What does FVG stand for?",
+            "img": "FVG_Diagram.png",
+            "answers": [
+                ["Fair Value Gap", true],
+                ["Fair Volume Gap", false],
+                ["Fine Value Gap", false]
+            ],
+            "explanation": "FVG stands for Fair Value Gap. It is a gap in price delivery where price has an interest in returning to. It can prove useful for entries."
+        },
+        {
+            "difficulty": 1,
+            "question": "What does the ICT term OB mean?",
+            "answers": [
+                ["Order Block", true],
+                ["Order Book", false],
+                ["Open Buyers", false]
+            ],
+            "explanation": "OB (in ICT terms) stands for Orderblock. It is the last candle opposing a major move, and contains many one-sided orders. It can prove useful for entries."
+        },
+        {
+            "difficulty": 3,
+            "question": "What is an example of a PD Array?",
+            "answers": [
+                ["Volatility", false],
+                ["Volume", false],
+                ["Open Interest", false],
+                ["Fair Value Gap", true]
+            ],
+            "explanation": "A PD (Price Delivery) Array is another name for an Institutional Reference Point."
+        },
+        {
+            "difficulty": 2,
+            "question": "What does CBDR stand for?",
+            "img": "CBDR.png",
+            "answers": [
+                ["Central Bank Dealing Range", true],
+                ["Central Bank Distribution Range", false],
+                ["Common Bond Dealing Range", false],
+                ["Common Bank Distribution Range", false]
+            ],
+            "explanation": "CBDR stands for Central Bank Dealing Range and it is the concept of a common price dealing range. The time of the range is 14:00-20:00EST (NY time) and it can prove useful to project the day's potential range."
+        },
+        {
+            "difficulty": 2,
+            "question": "Is there a difference between Liquidity Voids and a FVG's?",
+            "answers": [
+                ["Yes, FVGs are typically smaller", true],
+                ["Yes, FVGs are typically bigger", false],
+                ["They are the same", false]
+            ],
+            "explanation": "A FVG (Fair Value Gap) is what is left of a partially explored Liquidity Void, so it is not the same concept."
+        },
+        {
+            "difficulty": 2,
+            "question": "If price wicks below a previous swing low does this count as a break of structure?",
+            "answers": [
+                ["No, the candle body needs to close below the swing low", true],
+                ["Yes, a new low has been created", false]
+            ],
+            "explanation": "If price wicks below a previous swing low, unless the body closes below it (and for more confirmation on a higher timeframe too) then this move would only count as a stop run, and it is not a BOS."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is OTE?",
+            "img": "OTE_Diagram.png",
+            "answers": [
+                ["Optimal Trade Entry", true],
+                ["Optimal Trade Efficiency", false],
+                ["Optimal Trade Exit", false]
+            ],
+            "explanation": "OTE (Optimal Trade Entry) is a concept to determine whether price is in discount or premium within a range. OTE is typically between 0.618 and 0.79 on a fib retracement."
+        },
+        {
+            "difficulty": 2,
+            "question": "What is the Golden Ratio within a fib?",
+            "answers": [
+                ["0.618", true],
+                ["0.715", false],
+                ["0.5", false]
+            ],
+            "explanation": "The golden ratio is 1.618 but within a fib it is 0.618, sometimes rounded up to 0.62. This figure is useful as an OTE (Optimal Trade Entry) target or confluence."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is equilibrium?",
+            "answers": [
+                ["Equal interest of bulls and bears", true],
+                ["0.5 in a fib", true],
+                ["When bulls and bears agree to not buy", false]
+            ],
+            "explanation": "Equilibrium (also known as EQ) is when there is an equal interest for buyers and sellers within a market. This is Fair Market Value. It is also known as the 0.5 level in a fib because it is as equally discount as premium."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is a stop run?",
+            "answers": [
+                ["When a price run stops moving", false],
+                ["When price targets orders at a significant price point", true],
+                ["When price invalidates an OB", false]
+            ],
+            "explanation": "A stop run is when price moves to a level where stops are placed in the market, to gather up orders to the sellside or buyside. Identifying these can be useful to frame market conditions."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is a Liquidity Pool?",
+            "answers": [
+                ["Another name for a Liquidity Void", false],
+                ["An area in price with a large amount of orders", true],
+                ["A FVG", false]
+            ],
+            "explanation": "Liquidity Pools sound similar to Liquidity Voids, but they are the opposite. Liquidity Pools contain a large amount of liquidity, meaning price will likely have trouble passing them. Liquidity voids, on the other hand, are easy to pass."
+        },
+        {
+            "difficulty": 1,
+            "question": "If price is in Consolidation what is the next move?",
+            "answers": [
+                ["Expansion", true],
+                ["Retracement", false],
+                ["Reversal", false]
+            ],
+            "explanation": "The only move following a consolidation is an expansion move. This is because the market has collected orders within the consolidation (to prepare to prepare for the expansion)."
+        },
+        {
+            "difficulty": 2,
+            "question": "How is a Retracement different from a Reversal?",
+            "img": "Retracement_Diagram.png",
+            "answers": [
+                ["A Retracement is a move back into a recent price range", true],
+                ["A Retracement is a different name for Reversal", false],
+                ["A Retracement is when price moves down", false]
+            ],
+            "explanation": "A Retracement is when price moves back into a recently created price range, typically away from a PD Array (Like FVG, OB). Retracements typically move into or slightly past the range's Equilibrium level, which provides a potential trading setup."
+        },
+        {
+            "difficulty": 1,
+            "question": "How is a Breaker created?",
+            "img": "Breaker_Block_Diagram.png",
+            "answers": [
+                ["When an Orderblock fails", true],
+                ["When an FVG fails", false],
+                ["When a Liquidity Void is filled", false]
+            ],
+            "explanation": "A Breaker is created when an Orderblock is violated. Orderblocks are ran through more on the side of the market to where the trend is heading. Breakers can be useful reference points for catching retracements and following expansions."
+        },
+        {
+            "difficulty": 1,
+            "question": "What time frame holds more significance?",
+            "answers": [
+                ["HTF", true],
+                ["LTF", false]
+            ],
+            "explanation": "The HTF (Higher Time Frame) holds more significance than lower time frames because it holds more liquidity and it also dictates trends over the mid and lower time frames."
+        },
+        {
+            "difficulty": 2,
+            "question": "When are phantom trendlines useful?",
+            "answers": [
+                ["When used as a confluence", true],
+                ["All the time", false],
+                ["Never", false]
+            ],
+            "explanation": "Phantom trendlines can be used as potential targets for liquidity sweeps, due to retail stops. Even though they are useful, it is a good idea to use them mainly as a confluence rather than the sole trade idea."
+        },
+        {
+            "difficulty": 2,
+            "question": "What level is likely to be the best target if in a short position?",
+            "img": "Phantom_Trend.png",
+            "answers": [
+                ["A", false],
+                ["B", true],
+                ["C (Below OB)", false]
+            ],
+            "explanation": "In this example, we can see the three higher high points all support each other until the major CHoCH (CHange of CHaracter). When the topmost swing low is taken out, the lowest (but not the OB) in the trend can be targeted. However, you could also trade partials in this setup!"
+        },
+        {
+            "difficulty": 3,
+            "question": "What PD array is the most significant in the circled section?",
+            "img": "PD_Chart1.png",
+            "answers": [
+                ["Liquidity Void", true],
+                ["OB", false],
+                ["FVG", false]
+            ],
+            "explanation": "The major institutional reference point circled here is the Liquidity Void. The answer is not an FVG because one has not been created yet. The answer is also not an Orderblock because it is not circled."
+        },
+        {
+            "difficulty": 1,
+            "question": "What are the best timeframes to study together?",
+            "img": "MultiTF.png",
+            "answers": [
+                ["1D, 4H, 15m", true],
+                ["1D, 1H, 1m", false],
+                ["4H, 15m, 5m", false],
+                ["Monthly, 1D, 1m", false]
+            ],
+            "explanation": "The 1D, 4H and 15m are recommended as pairs for Multi-Timeframe (MTF) Analysis. The daily is needed to set the context, 4H for HTF (Higher Time Frame) reference points, 15m and optional 1m for scouting entries."
+        },
+        {
+            "difficulty": 2,
+            "question": "What normally happens after a Liquidity Sweep?",
+            "img": "Liq_Sweep.png",
+            "answers": [
+                ["Continuation Impulse in direction of major trend", true],
+                ["Consolidation", false],
+                ["Nothing", false]
+            ],
+            "explanation": "After a Liquidity Sweep, price commonly continues with the major trend, especially if it has confluence on the higher to lower time frames confirming this. Liquidity sweeps can be used to frame market context to look for entries."
+        },
+        {
+            "difficulty": 1,
+            "question": "What midnight is the most significant?",
+            "answers": [
+                ["New York", true],
+                ["London", false],
+                ["Los Angeles", false],
+                ["Japan", false]
+            ],
+            "explanation": "Midnight NY time (EST) is the most important for framing market context, compared to other countries. New York is also the standard for market timings in the US."
+        },
+        {
+            "difficulty": 2,
+            "question": "Which of the following is not a PD Array?",
+            "answers": [
+                ["Fair Value Gap", false],
+                ["Orderblock", false],
+                ["Volume", true],
+                ["Liquidity Void", false]
+            ],
+            "explanation": "A PD (Price Delivery) Array is another name for an Institutional Reference Point in price. Volume is a seperate piece of data to price, and it is not a PD Array."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is an ICT recommended capital risk per trade?",
+            "answers": [
+                ["0.5-2%", true],
+                ["0.1-0.5%", false],
+                ["2-3%", false],
+                ["5-10%", false]
+            ],
+            "explanation": "Around 1% is the recommended amount of capital to risk per trade (if the trade stops out), because it is not too high to where losses are very damaging, but not too low to where compounding is slow."
+        },
+        {
+            "difficulty": 1,
+            "question": "What should you do before starting trading for the day?",
+            "answers": [
+                ["Check economic calandars", false],
+                ["Get a daily bias", false],
+                ["Check higher time frames", false],
+                ["All of these options", true]
+            ],
+            "explanation": "To prepare for the day, you must know what news events are coming up so you are prepared. You must also know the daily bias and the Higher Time Frame context to frame Lower Time Frame studies."
+        },
+        {
+            "difficulty": 1,
+            "question": "When is the NY time for US news releases?",
+            "answers": [
+                ["8:30AM", true],
+                ["8:00AM", false],
+                ["7:30AM", false],
+                ["12:30AM", false]
+            ],
+            "explanation": "This is the time where news reports are commonly released and it is an area to look out for when trading."
+        },
+        {
+            "difficulty": 2,
+            "question": "What does LOKZ stand for?",
+            "answers": [
+                ["London KillZone", true],
+                ["London Open KillZone", false],
+                ["Low Open KillZone", false]
+            ],
+            "explanation": "LOKZ stands for London KillZone and it is the time zone between 8 and 10 UK time."
+        },
+        {
+            "difficulty": 2,
+            "question": "What is BST (time zone) equivilant to?",
+            "answers": [
+                ["UTC+1", true],
+                ["UTC", false],
+                ["UTC-1", false],
+                ["EST", false]
+            ],
+            "explanation": "BST (British Summer Time) is UTC+1 as it moves an hour ahead of GMT on the last Sunday in march and moves back on the last Sunday in October. This means UK session timings do not stay the same the whole year."
+        },
+        {
+            "difficulty": 1,
+            "question": "What does EQH/REH mean?",
+            "answers": [
+                ["Equilibrium", false],
+                ["Equal Highs", true],
+                ["Equal Lows", false],
+                ["Alternate acronym of EQ", false]
+            ],
+            "explanation": "EQH stands for Equal Highs. REH stands for relative equal highs and it basically has the same meaning. EQL and REL stand for equal lows."
+        },
+        {
+            "difficulty": 1,
+            "question": "What does EQH/REH mean?",
+            "answers": [
+                ["Equilibrium", false],
+                ["Equal Highs", true],
+                ["Equal Lows", false],
+                ["Alternate acronym of EQ", false]
+            ],
+            "explanation": "EQH stands for Equal Highs. REH stands for relative equal highs and it basically has the same meaning. EQL and REL stand for equal lows."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the best way to speak about price?",
+            "answers": [
+                ["Price will reject at this zone", false],
+                ["Price might reject at this zone", false],
+                ["Price is likely to reject at this zone", true]
+            ],
+            "explanation": "This option is the best way of speaking because it says exactly what should be true. Price never has certainty, so you should not speak in definite terms. Using the word -might- is a bit too neutral so -likely- is more ideal."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the best R to aim for, for balance of winrate and returns?",
+            "answers": [
+                ["2-5R", true],
+                ["5-10R", false],
+                ["1-2R", false]
+            ],
+            "explanation": "2-5R is a nice area to aim for to strike a good balance between winrate and returns. While this is subjective, constantly aiming for 5R+ can mean that you go more into drawdown if your winrate is not good enough. 1-2R is okay but could be better."
+        },
+        {
+            "difficulty": 2,
+            "question": "When should you allow high R trades (10+R)?",
+            "answers": [
+                ["When calculating risk on a LTF for a HTF idea", true],
+                ["When large news events are coming out", false],
+                ["All the time", false]
+            ],
+            "explanation": "It is only a good idea to have high R trades through Multi Time-Frame Analysis. Otherwise, drawdown periods will be more damaging, and is harder to manage mentally. Large news events cause slippage, so it is not a great idea to trade them also."
+        },
+        {
+            "difficulty": 1,
+            "question": "You have lost 5 trades in a row. What does this mean?",
+            "img": "Distribution.png",
+            "answers": [
+                ["Your trading strategy doesn't work", false],
+                ["Your trading ideas are invalid", false],
+                ["You are trading emotionally", false],
+                ["Random probability is playing out", true]
+            ],
+            "explanation": "Just because you have lost trades does not mean that the trade idea was invalid (you should do trade reviews to check this). Even if using lots of confluences and perfect markings, you should still expect losing streaks. This is the nature of probability."
+        },
+        {
+            "difficulty": 1,
+            "question": "Market conditions do not follow your trading plan. What do you do?",
+            "img": "Distribution.png",
+            "answers": [
+                ["Open trades with lower risk", false],
+                ["Do not trade", true],
+                ["Open high R trades to catch volatility", false],
+                ["Open low R trades", false]
+            ],
+            "explanation": "If market conditions do not support your trading rules and are not optimal, do not trade. There are always more opportunities, and trying to grab every opportunity that passes has never worked out for anyone."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the most sensible response to a loss?",
+            "img": "Responsibility.png",
+            "answers": [
+                ["'I don't like Octobers for this reason'", false],
+                ["'I am such a bad trader'", false],
+                ["'I should look into algos'", false],
+                ["'I will review this losing trade'", true],
+                ["'I will trade again'", false]
+            ],
+            "explanation": "Do not blame the market. It provides opportunities, but you must learn to use it for profitability. Every trade should be reviewed, and if it is a high probability setup that failed, move on. No one can perfectly predict markets. You also should not trade immediately after a loss."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the most effective way to mitigate fear?",
+            "answers": [
+                ["Remove 'good' and 'bad' from winning or losing trades", true],
+                ["Drink enough water", false],
+                ["Get good sleep", false],
+                ["Smoke weed while trading", false]
+            ],
+            "explanation": "While these other options may be beneficial (not weed LUL), they will only add to your clarity. Fear comes from emotion and it can only change when you stop attaching the idea of 'good' to winning trades and 'bad' to losing trades. You should only see following your trading plan as 'good'."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the most liquid market?",
+            "answers": [
+                ["Forex", true],
+                ["Futures", false],
+                ["Equities", false],
+                ["Cryptocurrency", false]
+            ],
+            "explanation": "Forex is by far the most liquid market out of these options at 5.3 Trillion Dollars in daily Volume compared to $436bn for Futures, $191bn for Equities and $15bn for Crypto."
+        }
+    ]
+}

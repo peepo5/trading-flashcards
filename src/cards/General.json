@@ -1,0 +1,37 @@
+{
+    "title": "General Trading",
+    "description": "Test your general trading knowledge with this flashcard quiz.",
+    "cards": [
+        {
+            "difficulty": 1,
+            "question": "The Dollar Index is represented by which?",
+            "answers": [
+                ["DXY", true],
+                ["BXY", false],
+                ["USD", false],
+                ["USDX", true]
+            ],
+            "explanation": "The Dollar Index, is commonly known as DXY or USDX, and is used as a measurement of strength of the US Dollar."
+        },
+        {
+            "difficulty": 1,
+            "question": "Which of the following is valued 10x less than the other?",
+            "answers": [
+                ["SPY", true],
+                ["SPX", false]
+            ],
+            "explanation": "SPX is short for the S&P 500. SPY holds a portfolio of stocks included in the S&P 500 and aims to produce returns roughly in line with the S&P, at about 10% of the index price."
+        },
+        {
+            "difficulty": 1,
+            "question": "What is the most liquid market?",
+            "answers": [
+                ["Forex", true],
+                ["Futures", false],
+                ["Equities", false],
+                ["Cryptocurrency", false]
+            ],
+            "explanation": "Forex is by far the most liquid market out of these options at 5.3 Trillion Dollars in daily Volume compared to $436bn for Futures, $191bn for Equities and $15bn for Crypto."
+        }
+    ]
+}
