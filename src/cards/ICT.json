@@ -355,7 +355,6 @@
         {
             "difficulty": 1,
             "question": "Market conditions do not follow your trading plan. What do you do?",
-            "img": "Distribution.png",
             "answers": [
                 ["Open trades with lower risk", false],
                 ["Do not trade", true],
